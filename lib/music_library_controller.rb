@@ -63,4 +63,8 @@ class MusicLibraryController
       end
     end
   end
+  
+  def play_song
+    "Choose a song"
+  end
 end
