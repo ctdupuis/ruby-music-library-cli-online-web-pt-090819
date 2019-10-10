@@ -32,7 +32,7 @@ class MusicLibraryController
   
    def list_artists
     Artist.all.sort_by(&:name).each.with_index(1) do |a, i|
-      puts "#{i}. #{a.artist.name} - #{a.name} - #{a.genre.name}"
+      puts "#{i}. #{a.name}"
     end
   end
 end
