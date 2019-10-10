@@ -51,6 +51,5 @@ class MusicLibraryController
        puts "#{i}. #{s.name} - #{s.genre.name}"
       end
     end
-    # binding.pry
   end
 end
