@@ -25,6 +25,9 @@ class MusicLibraryController
   end
   
   def list_songs
+    Songs.all.sort_by(&:name).each_with_index(1) do |s, i|
+      
+    end
      binding.pry
   end
 end
